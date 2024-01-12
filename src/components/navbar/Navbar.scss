@@ -1,0 +1,67 @@
+@import "../../App.scss";
+
+.navbar {
+  height: 100px;
+
+  .wrapper {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+
+    @include mobile {
+      justify-content: flex-end;
+    }
+
+    span {
+      font-weight: bold;
+      margin: 20px;
+
+      @include tablet {
+        margin-left: 100px;
+      }
+
+      @include mobile {
+        display: none;
+      }
+    }
+
+    .topIcon {
+      font-size: 32px;
+      margin: 10px;
+    }
+
+    .topIcon:hover {
+      transition: transform 0.2s ease-in-out;
+      transform: scale(1.4);
+
+      @include tablet {
+        transition: none;
+        transform: none;
+      }
+
+      @include mobile {
+        transition: none;
+        transform: none;
+      }
+    }
+
+    .topIcon:active {
+      transform: scale(1);
+
+      @include tablet {
+        transform: none;
+      }
+
+      @include mobile {
+        transform: none;
+      }
+    }
+
+    .social {
+      display: flex;
+    }
+  }
+}
