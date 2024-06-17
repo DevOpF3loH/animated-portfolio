@@ -12,13 +12,17 @@ const App = () => {
   const [lightMode, setLightMode] = useState(false);
 
   const changeMode = () => {
-    setLightMode(prevLightMode => !prevLightMode);
+    setLightMode((prevLightMode) => !prevLightMode);
   };
   return (
     <div className={`${lightMode ? "lightBody" : "darkBody"}`}>
-      {/* <Cursor />
+      <Cursor />
       <section id="Homepage">
-        <i className="sunIcon fa-regular fa-sun" onClick={changeMode}></i>
+        {lightMode ? (
+          <i className="sunIcon fa-regular fa-moon" onClick={changeMode}></i>
+        ) : (
+          <i className="sunIcon fa-regular fa-sun" onClick={changeMode}></i>
+        )}
         <Navbar />
         <Hero />
       </section>
@@ -31,7 +35,7 @@ const App = () => {
       <section id="Portfolio">
         <Parallax type="portfolio" />
       </section>
-      <Portfolio /> */}
+      <Portfolio />
       <section id="Contact">
         <Contact />
       </section>

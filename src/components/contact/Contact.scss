@@ -7,6 +7,7 @@
   display: flex;
   align-items: center;
   gap: 50px;
+  position: relative;
 
   @include tablet {
     width: 100%;
@@ -52,11 +53,33 @@
     span {
       font-weight: 300;
     }
+
+    .containerDetails {
+      .miniForm {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+      }
+
+      .mailSvg {
+        position: absolute;
+        margin: auto;
+        bottom: 20px;
+
+        @include tablet {
+          left: 250px;
+        }
+
+        @include mobile {
+          left: 10px;
+          top: 100px;
+        }
+      }
+    }
   }
 
   .formContainer {
     flex: 1;
-    position: relative;
 
     @include tablet {
       padding: 50px;
@@ -66,20 +89,6 @@
     @include mobile {
       padding: 50px;
       width: 100%;
-    }
-
-    .mailSvg {
-      position: absolute;
-      margin: auto;
-      z-index: -1;
-
-      @include tablet {
-        left: 250px;
-      }
-
-      @include mobile {
-        left: 0px;
-      }
     }
 
     form {
@@ -121,7 +130,7 @@
       }
 
       button:hover {
-        background-color: orangered;
+        background-color: lightyellow;
       }
     }
   }

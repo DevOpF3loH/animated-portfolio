@@ -3,7 +3,6 @@ import "./Portfolio.scss";
 import felcon from "/felconXL.png";
 import codehub from "/codehubXL.png";
 import mesmerizing from "/mesmerizingXL.png";
-import monsters from "/monstersXL.png";
 import moviebay from "/moviebayXL.png";
 import musicbay from "/musicbayXL.png";
 import niambie_chat from "/niambie_chatXL.png";

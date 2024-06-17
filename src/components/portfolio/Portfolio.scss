@@ -61,7 +61,7 @@
         @include mobile {
           width: 100%;
           max-height: 300px;
-          margin-top: 35px;
+          margin-top: 60px;
           padding: 10px;
         }
 
@@ -126,7 +126,7 @@
           }
 
           button:hover {
-            background-color: orangered;
+            background-color: lightyellow;
           }
 
           @include tablet {
