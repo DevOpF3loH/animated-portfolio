@@ -39,6 +39,7 @@ html {
 
   @media (max-width: 738px) {
     top: 90px;
+    font-size: 18px;
   }
 }
 
@@ -75,7 +76,7 @@ html {
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
-*{
+* {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }

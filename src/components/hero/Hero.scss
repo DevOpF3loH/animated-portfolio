@@ -96,6 +96,11 @@
       height: 120%;
       object-fit: cover;
       z-index: 999;
+
+      @include mobile {
+        width: 92%;
+        height: 120%;
+      }
     }
   }
 

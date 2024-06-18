@@ -31,6 +31,10 @@
     .topIcon {
       font-size: 32px;
       margin: 10px;
+
+      @include mobile {
+        font-size: 24px;
+      }
     }
 
     .topIcon:hover {
