@@ -5,8 +5,10 @@ import codehub from "/codehubXL.png";
 import mesmerizing from "/mesmerizingXL.png";
 import moviebay from "/moviebayXL.png";
 import musicbay from "/musicbayXL.png";
-import niambie_chat from "/niambie_chatXL.png";
+import niambieChat from "/niambieChatXL.png";
 import niambie from "/niambieXL.png";
+import deliveroo from "/deliveroo.jpg";
+import bonga from "/bonga.jpg";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 
 const items = [
@@ -30,7 +32,7 @@ const items = [
     id: 3,
     title: "Tik Tok clone",
     img: mesmerizing,
-    desc: "A Tik Tik clone website called mesmerizing",
+    desc: "A Tik Tok clone website called mesmerizing",
     gitlink: "https://github.com/DevOpF3loH/mesmerizing",
     link: "https://mesmerizing-20739.web.app/",
   },
@@ -53,7 +55,7 @@ const items = [
   {
     id: 6,
     title: "Niambie Chat",
-    img: niambie_chat,
+    img: niambieChat,
     desc: "A social media application like Whatsapp where people can reach and interact with each other.",
     gitlink: "https://github.com/DevOpF3loH/niambie",
     link: "https://niambie-5e021.web.app/",
@@ -68,6 +70,22 @@ const items = [
   },
   {
     id: 8,
+    title: "Deliveroo App",
+    img: deliveroo,
+    desc: "A food delivery mobile application where people can order food.",
+    gitlink: "https://github.com/DevOpF3loH/deliveroo",
+    link: "https://github.com/DevOpF3loH/deliveroo",
+  },
+  {
+    id: 9,
+    title: "Bonga App",
+    img: bonga,
+    desc: "A chat mobile application where people can communicate with each other.",
+    gitlink: "https://github.com/DevOpF3loH/bonga",
+    link: "https://github.com/DevOpF3loH/bonga",
+  },
+  {
+    id: 10,
     title: "Meooow!!",
     img: "http://thecatapi.com/api/images/get?format=src&type=gif&size=small",
     desc: "Just a random cat. Start the mewsic, it's caturday!!",
